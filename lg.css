@@ -1,0 +1,454 @@
+@media (min-width:990px) and (max-width:1200px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    /************************* d1 **************************/
+
+#d1{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0.1,0.1),#6c5ce707), url(img/nt1.jpg);
+    background-size: cover;
+ position: relative;
+    
+}
+
+.first{
+    width: 100%;
+    height: 145px;
+    background-color:#010008;
+   position: relative;
+}
+.first ul{
+    width:100%;
+    height: 150px;
+    list-style: none;
+ display: flex;
+ justify-content: center;
+ align-items: end;
+ padding-bottom: 7px;
+box-sizing: border-box;
+}
+.first ul li{
+    display: inline-block;
+    margin-left: 35px;
+}
+.first ul li a{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  
+}
+.first ul li a .cov{
+    width: 100%;
+    height: 2px;
+   margin: 0 auto;
+    background-color: white;
+    transform: scale(0,0);
+}
+.inp{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 32px;
+}
+.inp input[type=text]{
+    width: 100%;
+    padding: 4px;
+    background-color: #010008;
+    border: 1px solid deeppink;
+    border-radius: 20px;
+}
+.inp input[type=text]::placeholder{
+   padding-left: 8px;
+}
+.inp i{
+    color: deeppink;
+    position: relative;
+    left: 270px;
+    bottom: 30px;
+}
+.icon{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+}
+.icon i{
+    color: deeppink;
+    margin: 10px 10px;
+}
+.icon img{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+/************************* d1 **************************/
+/************************* d2 **************************/
+#d2{
+    width: 100%;
+    height: 100vh;
+   
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+.ser{
+    width: 90%;
+    height: 85vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ser1{
+width: 390px;
+height: 450px;
+margin-top: 20px;
+position: relative;
+margin: 20px 20px;
+}
+.ser1 h1{
+    text-align: center;
+    color: #273c75;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.ser1 p{
+color: black;
+text-align: center;
+padding-top: 20px;
+box-sizing: border-box;
+}
+.ser1 img{
+    width: 100%;
+    height: 100%;
+}
+.ser1 .cover{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0,0,0,0.1),#273c75);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.ser1:hover .cover{
+    opacity: 1;
+}
+
+/************************* endd2 **************************/
+/* div o */
+
+.o{
+    width: 100%;
+    height: 250px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+.o .o1{
+    width: 150PX;
+    height: 150PX;
+    position: relative;
+    margin: 0 16px;
+ 
+}
+.o .o1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.o .o1 h6{
+color: black;
+text-align: center;
+margin-top: 15px;
+font-size: 17px;
+font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.o .o1 .opa{
+    width: 100%;
+    height: 100%;
+   background:linear-gradient(rgba(0,0,0.2,0.2),#dff9fb96);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.o .o1:hover .opa{
+    opacity: 1;
+}
+
+/*  end div o */
+/************************* d3 **************************/
+#d3{
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+}
+.Products{
+    width: 100%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+}
+.pro{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+  
+  
+}
+.pro img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1,1);
+    transition: 0.5s;  
+}
+
+
+
+.pro h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pro p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pro a{
+    display:block;
+    width: 100px;
+    height: 30px;
+    background-color: deeppink;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+/************************* end d3 **************************/
+/*************************  d4 **************************/
+#d4{
+    width: 100%;
+    height:170vh;
+}
+.shop{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    box-sizing: border-box;
+  
+
+}
+.shop .imges{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.shop .imges img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    transform: scale(1,1);
+    transition: 0.5s;
+}
+.shop .imges img:hover{
+    transform: scale(1.1,1.1);
+}
+.shop .ff{
+    width: 300px;
+    height: 130px;
+    background-color:  #010008;
+    position: absolute;
+    bottom: 1px;
+    left: 23px;
+}
+.shop .ff h2{
+    color: wheat;
+    text-align: center;
+    line-height: 25px;
+}
+.shop .ff p{
+    color: white;
+    text-align: center;
+}
+.shop .ff a{
+    width: 130px;
+    font-weight: bold;
+    text-align: center;
+   margin-left: 85px;
+    color: wheat;
+    text-decoration: none;
+    background-color:rgb(3, 180, 121);
+    text-align: center;
+     display: inline-block;
+}
+.shop1{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    
+}
+.shop1 .im{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.shop1 .im img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px; 
+    transition: 0.5s;
+}
+.shop1 .im img:hover{
+    transform: scale(1.1,1.1);
+}
+.im .fff{
+    width: 300px;
+    height: 130px;
+    background-color:  #010008;
+    position: absolute;
+    bottom: -20px;
+    left: 23px;
+}
+.im .fff h2{
+    color: wheat;
+    text-align: center;
+    line-height: 25px;
+}
+.im .fff p{
+    color: white;
+    text-align: center;
+}
+.im .fff a{
+    width: 130px;
+    font-weight: bold;
+    text-align: center;
+   margin-left: 85px;
+    color: wheat;
+    text-decoration: none;
+    background-color:rgb(3, 180, 121);
+    text-align: center;
+     display: inline-block;
+}
+/************************* end d4 **************************/
+/*************************  d5 **************************/
+#d5{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.foot{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+@keyframes o {
+    0%{
+        top: 50px;
+    }
+    100%{
+        top: 40px;
+    }
+}
+.adres{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    animation-name: o;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.adres h4{
+    color: white;
+    font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.adres i{
+    font-size: 25px;
+    color: deeppink;
+    margin: 0 15px;
+}
+.adres1{
+    width: 150px;
+    height: 300px;
+    border-top: 2px solid wheat;
+    position: absolute;
+    right: 430px;
+    top: 130px;
+}
+.adres1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.adres2{
+    width: 150px;
+    height: 300px;
+    border-top: 2px solid wheat;
+    position: absolute;
+    right: 220px;
+    top: 130px;
+}
+.adres2 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.adres3{
+    width: 150px;
+    height: 300px;
+    border-top: 2px solid wheat;
+    position: absolute;
+    right: 10px;
+    top: 130px;
+}
+.adres3 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.foter{
+    width: 250px;
+    height: 300px;
+    border-top: 2px solid wheat;
+   position: absolute;
+   top: 130px;
+}
+.foter a{
+    display: block;
+    text-decoration: none;
+    color: white;   
+}
+/************************* end d5 **************************/
+}
